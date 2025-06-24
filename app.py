@@ -4,7 +4,6 @@ from crypto_utils import generate_keys as real_generate_keys, encrypt_file as re
 import os
 
 
-# Dummy functions – we'll replace these later
 def generate_keys():
     try:
         priv, pub = real_generate_keys()
